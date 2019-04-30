@@ -1,6 +1,6 @@
-package strategypattern
+package chapter01
 
-import strategypattern.Problem03.*
+import chapter01.Problem03.*
 
 /**
  *  디자인 원칙

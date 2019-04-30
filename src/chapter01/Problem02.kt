@@ -1,6 +1,6 @@
-package strategypattern
+package chapter01
 
-import strategypattern.Problem02.*
+import chapter01.Problem02.*
 
 /**
  *  인터페이스로 나눠서 구분하기

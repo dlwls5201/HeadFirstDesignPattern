@@ -1,6 +1,6 @@
-package strategypattern
+package chapter01
 
-import strategypattern.Problem01.*
+import chapter01.Problem01.*
 
 /**
  *  문제
