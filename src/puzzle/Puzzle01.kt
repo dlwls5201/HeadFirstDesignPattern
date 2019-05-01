@@ -11,6 +11,9 @@ package puzzle
  */
 
 
+
+
+
 /**
  * 게임 캐릭터용 클래스
  */
@@ -56,6 +59,8 @@ class Knight: Character() {
 }
 
 
+
+
 /**
  * 무기의 행동에 관한 클래스
  */
@@ -89,6 +94,8 @@ class SwordBehavior: WeaponBehavior {
         println("검을 휘두르기")
     }
 }
+
+
 
 
 fun main() {

@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f1281b-4a97-414f-aa2c-3b027b5bf64e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter03/Problem01.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter01/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter01/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/Problem02$CurrentConditionDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/Problem02$CurrentConditionDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/Problem02$StatisticsDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/Problem02$StatisticsDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/Problem02$WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/Problem02$WeatherData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/Problem02Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/Problem02Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter02/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter01/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter02/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter03/Example.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter03/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter03/Problem01.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -42,8 +28,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter01/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -51,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter02/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="135">
+              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -91,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/chapter01/Chapter01.kt" />
         <option value="$PROJECT_DIR$/src/chapter01/chapter01.md" />
         <option value="$PROJECT_DIR$/headfirstdesignpattern.md" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/strategypattern/readme.md" />
         <option value="$PROJECT_DIR$/src/strategypattern/Problem03.kt" />
         <option value="$PROJECT_DIR$/src/strategypattern/Puzzle.kt" />
@@ -102,10 +96,11 @@
         <option value="$PROJECT_DIR$/src/chapter02/Problem01.kt" />
         <option value="$PROJECT_DIR$/src/chapter02/Problem02.kt" />
         <option value="$PROJECT_DIR$/src/chapter01/readme.md" />
-        <option value="$PROJECT_DIR$/src/chapter02/readme.md" />
         <option value="$PROJECT_DIR$/src/chapter03/readme.md" />
         <option value="$PROJECT_DIR$/src/chapter03/Example.kt" />
         <option value="$PROJECT_DIR$/src/chapter03/Problem01.kt" />
+        <option value="$PROJECT_DIR$/src/chapter02/readme.md" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -194,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter03.Problem01Kt">
+  <component name="RunManager" selected="Kotlin.puzzle.Puzzle01Kt">
     <configuration name="chapter01.Problem01Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="VM_PARAMETERS" />
@@ -262,9 +257,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.puzzle.Puzzle01Kt" />
         <item itemvalue="Kotlin.chapter03.Problem01Kt" />
         <item itemvalue="Kotlin.chapter02.Problem02Kt" />
-        <item itemvalue="Kotlin.puzzle.Puzzle01Kt" />
         <item itemvalue="Kotlin.chapter01.Problem03Kt" />
         <item itemvalue="Kotlin.chapter01.Problem01Kt" />
       </list>
@@ -296,12 +291,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34096387" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34096387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32981133" />
@@ -323,13 +318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -382,6 +370,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter03/Problem01.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter01/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter02/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter03/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -389,24 +398,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/readme.md">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter02/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter03/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
