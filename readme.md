@@ -5,11 +5,13 @@
 HeadFirstDesignPattern 책을 보며 공부한 내용을 정리한 저장소 입니다.
 정리한 내용은 제 블로그를 통해 확인하실 수 있습니다.
 
-//- [Chapter01 스트래티지 패턴](https://black-jin0427.tistory.com/193)
-
 - [Chapter01 스트래티지 패턴](/src/readme/readme01.md)
 - [Chapter02 옵저버 패턴](/src/readme/readme02.md)
 - [Chapter03 데코레이터 패턴](/src/readme/readme03.md)
+
+## 블로그
+
+- [스트래티지 패턴](https://black-jin0427.tistory.com/193)
 
 ## 디자인 원칙 모음
 
@@ -24,3 +26,5 @@ HeadFirstDesignPattern 책을 보며 공부한 내용을 정리한 저장소 입
 - 서로 상호작용을 하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야한다.
 
 ### chapter03
+
+- 클래스는 확장에 대해서는 열려 있어야 하지만 코드 변경에 대해서는 닫혀있어야한다.
