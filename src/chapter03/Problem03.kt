@@ -17,7 +17,9 @@ class Problem03 {
     }
 
     /**
-     *  구상 구성요소
+     *  ConcreteComponent에 새로운 행동을 동적으로 추가하게 됩니다.
+     *
+     *  구성 요소를 나타내는 구상 클래스 (구상 구성요소)
      *
      *  @에스프레소 : 1.99
      *  @하우스블랜드 : 0.89
@@ -45,17 +47,18 @@ class Problem03 {
     }
 
     /**
-     *  @스팀 밀크 : 0.1
+     *  ConcreteDecorator에는 그 객체가 장식하고 있는것을 위한 인스턴스 변수가 있습니다.
+     *
+     *  @스팀밀크 : 0.1
      *  @모카 : 0.2
      *  @두유 : 0.15
-     *  @휘핑 크림 : 0.1
+     *  @휘핑크림 : 0.1
      */
-    class SteamMilk(val beverage: Beverage): CondimentDecorator() {
+    class SteamMilk(val beverage: Beverage): Beverage() {
 
         override fun cost() =  0.1 + beverage.cost()
 
-        override val description: String
-            get() = "${beverage.description}, 스팀밀크"
+        override val description: String = "${beverage.description}, 스팀밀크"
 
     }
 
@@ -87,10 +90,18 @@ class Problem03 {
 
 fun main() {
 
-    val beverage = Espresso()
+    val beverage: Beverage = Espresso()
     println("${beverage.description} $${beverage.cost()}")
 
-    var beverage2 = DarkRoast()
-    //TODO 이게 무슨 일이지??
+    var beverage2: Beverage = DarkRoast()
     beverage2 = Mocha(beverage2)
+    beverage2 = Mocha(beverage2)
+    beverage2 = Whip(beverage2)
+    println("${beverage2.description} $${beverage2.cost()}")
+
+    var beverage3: Beverage = HouseBlend()
+    beverage3 = Soy(beverage3)
+    beverage3 = Mocha(beverage3)
+    beverage3 = Whip(beverage3)
+    println("${beverage3.description} $${beverage3.cost()}")
 }
