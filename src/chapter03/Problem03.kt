@@ -5,6 +5,7 @@ import chapter03.Problem03.*
 class Problem03 {
 
     //추상 구상요소
+    //Component
     abstract class Beverage(
         open val description: String = "제목 없음") {
 
@@ -12,6 +13,7 @@ class Problem03 {
     }
 
     //추상 데코레이터
+    //Decorator
     abstract class CondimentDecorator: Beverage() {
         abstract override val description: String
     }
@@ -54,7 +56,7 @@ class Problem03 {
      *  @두유 : 0.15
      *  @휘핑크림 : 0.1
      */
-    class SteamMilk(val beverage: Beverage): Beverage() {
+    class SteamMilk(val beverage: Beverage): CondimentDecorator() {
 
         override fun cost() =  0.1 + beverage.cost()
 

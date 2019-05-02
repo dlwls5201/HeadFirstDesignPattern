@@ -24,25 +24,25 @@ class Problem02 {
     //음료를 나타내는 추상 클래스
     abstract class Beverage(
         val description: String,
-        var milk: Boolean,
-        var soy: Boolean,
-        var mocha: Boolean,
-        var whip: Boolean) {
+        var milk: Boolean = false,
+        var soy: Boolean = false,
+        var mocha: Boolean = false,
+        var whip: Boolean = false) {
 
         //각 음료 인스턴스마다 추가 사항에 해당하는 추가 가격까지 포함시킬 수 있도록
         //추상클래스가 아닌 구현을 하도록 하겠습니다.
-        fun cost() {
-            var cost = 0.0
+        open fun cost(): Double {
+            var sumCost = 0.0
 
-            if(hasMilk()) cost += 0.1
+            if(hasMilk()) sumCost += MILK.cost
 
-            if(hasSoy()) cost += 0.15
+            if(hasSoy()) sumCost += SOY.cost
 
-            if(hasMocha()) cost += 0.2
+            if(hasMocha()) sumCost += MOCHA.cost
 
-            if(hasWhip()) cost += 0.1
+            if(hasWhip()) sumCost += WHIP.cost
 
-            println("cost : $cost")
+            return sumCost
         }
 
         // 첨가물에 대한 부울값
@@ -53,18 +53,29 @@ class Problem02 {
 
     }
 
-    class EspressoWithSteamedMilk:
-        Beverage("에스프레소, 스팀밀크",
-            true, false, false, false)
+    class DarkRoastWithSteamMilk:
+        Beverage("최고의 다크 로스트, 스팀밀크", milk = true) {
 
+        override fun cost(): Double {
+            return 1.99 + super.cost()
+        }
 
-    class EspressoWithSteamedMilkAndMocha:
-        Beverage("에스프레소, 스팀밀크, 모카",
-            true, false, true, false)
+    }
+
+    class DarkRoastWithSteamedMilkAndMocha:
+        Beverage("최고의 다크 로스트, 스팀밀크, 모카", milk = true, mocha = true) {
+
+        override fun cost(): Double {
+            return 1.99 + super.cost()
+        }
+    }
 }
 
 fun main() {
 
-    EspressoWithSteamedMilk().cost()
-    EspressoWithSteamedMilkAndMocha().cost()
+    val darkRoast = DarkRoastWithSteamMilk()
+    val darkRoast2 = DarkRoastWithSteamedMilkAndMocha()
+
+    println(darkRoast.description + " $" + darkRoast.cost())
+    println(darkRoast2.description + " $" + darkRoast2.cost())
 }
