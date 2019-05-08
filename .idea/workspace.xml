@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c40b7853-8f36-47c2-9720-9e8244a6ca31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter04/Problem01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/Problem02.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter04/Problem03.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/readme/readme04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/readme/readme05.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Beverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$CondimentDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$CondimentDecorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$DarkRoast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$DarkRoast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Decaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Decaf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Espresso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$HouseBlend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$HouseBlend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Mocha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Mocha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$SIZE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$SIZE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Soy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Soy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$SteamMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$SteamMilk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Whip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Whip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readme/readme05.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/readme/readme05.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/readme/readme05.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -265,7 +246,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18669528" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18669528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -274,12 +255,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33975902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33975902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33614457" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33614457" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -400,8 +381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/readme/readme05.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
