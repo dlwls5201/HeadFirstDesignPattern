@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53e71a27-9bab-47f1-9919-2595fbb069ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter03/Problem04.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$Beverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$EspressoWithSteamedmMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$EspressoWithSteamedmMilk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$EspressoWithSteamedmMilkAndMocha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02$Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02$Beverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02$DarkRoastWithSteamMilk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02$DarkRoastWithSteamedMilkAndMocha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Beverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$CondimentDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$CondimentDecorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$DarkRoast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$DarkRoast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Decaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Decaf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Espresso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$HouseBlend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$HouseBlend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Mocha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Mocha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Soy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Soy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$SteamMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$SteamMilk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Whip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Whip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme01.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme02.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme03.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme03.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme04.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme05.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme05.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter03/Problem01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Problem01.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter03/Problem02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Problem02.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter03/Problem03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Problem03.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readme/readme01.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/readme/readme01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readme/readme02.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/readme/readme02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readme/readme03.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/readme/readme03.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,86 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/readme/readme02.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/readme/readme03.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter03/Problem01.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter03/Problem03.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="98" selection-start-line="98" selection-end-line="117" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle03.kt">
+        <entry file="file://$PROJECT_DIR$/src/chapter03/Problem04.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1125" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter03/Problem02.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="75" column="1" selection-start-line="65" selection-end-line="75" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/Problem01.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-687" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/Problem02.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-597" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter01/Problem03.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/readme/readme01.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            <state relative-caret-position="216">
+              <caret line="52" column="61" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -164,6 +56,7 @@
         <option value="$PROJECT_DIR$/src/chapter03/Problem02.kt" />
         <option value="$PROJECT_DIR$/src/readme/readme03.md" />
         <option value="$PROJECT_DIR$/src/chapter03/Problem03.kt" />
+        <option value="$PROJECT_DIR$/src/chapter03/Problem04.kt" />
       </list>
     </option>
   </component>
@@ -244,7 +137,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter03" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chapter03" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -318,7 +216,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33975902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33975902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,16 +333,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter03/Problem03.kt">
+    <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle03.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="98" selection-start-line="98" selection-end-line="117" selection-end-column="1" />
+        <state relative-caret-position="-261">
+          <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle03.kt">
+    <entry file="file://$PROJECT_DIR$/src/chapter03/LowerCaseInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125" />
+        <state relative-caret-position="-6">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter03/Problem03.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter03/Problem04.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="52" column="61" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="61" />
+        </state>
       </provider>
     </entry>
   </component>

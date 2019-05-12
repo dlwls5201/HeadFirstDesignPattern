@@ -59,7 +59,7 @@ class Problem03 {
      *  @두유 : 0.15
      *  @휘핑크림 : 0.1
      */
-    class SteamMilk(val beverage: Beverage): Beverage() {
+    class SteamMilk(val beverage: Beverage): CondimentDecorator() {
 
         override fun cost() =  0.1 + beverage.cost()
 
@@ -68,7 +68,7 @@ class Problem03 {
 
     }
 
-    class Mocha(val beverage: Beverage): Beverage() {
+    class Mocha(val beverage: Beverage): CondimentDecorator() {
 
         override fun cost() =  0.2 + beverage.cost()
 
@@ -77,7 +77,7 @@ class Problem03 {
 
     }
 
-    class Soy(val beverage: Beverage): Beverage() {
+    class Soy(val beverage: Beverage): CondimentDecorator() {
 
         override fun cost() =  0.15 + beverage.cost()
 
@@ -86,7 +86,7 @@ class Problem03 {
 
     }
 
-    class Whip(val beverage: Beverage): Beverage() {
+    class Whip(val beverage: Beverage): CondimentDecorator() {
 
         override fun cost() =  0.1 + beverage.cost()
 
