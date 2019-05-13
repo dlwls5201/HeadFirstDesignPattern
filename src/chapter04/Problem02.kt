@@ -5,7 +5,11 @@ import chapter04.Problem02.*
 /**
  * 바뀌는 부분과 바뀌지 않은 부분으로 나눠 캡슐화를 하자
  *
+ * "간단한 팩토리"
  * 객체 생성 부분을 캘슐화 하며 객체 생성을 처리하는 클래스를 팩토리라고 부릅니다.
+ *
+ * 피자를 생성하는 작업을 한 클래스에 캡슐화시켜 놓으면 구현을 변경해야 하는 경우에 여기저기 다 들어가서 고칠 필요 없이
+ * 이 팩토리 클래스 하나만 고치면 됩니다.
  */
 class Problem02  {
 
@@ -52,8 +56,6 @@ class Problem02  {
 
     }
 
-    //피자를 생성하는 작업을 한 클래스에 캡슐화시켜 놓으면 구현을 변경해야 하는 경우
-    //여기저기 다 들어가서 고칠 필요가 없이 이 팩토리 클래스 하나만 고치면 됩니다.
     class SimplePizzaFactory {
 
         fun createPizza(type: String):Pizza? {
@@ -82,7 +84,6 @@ class Problem02  {
 
 fun main() {
 
-    val factory =  SimplePizzaFactory()
-    PizzaStore(factory)
+    PizzaStore(SimplePizzaFactory())
         .orderPizza("cheese")
 }
