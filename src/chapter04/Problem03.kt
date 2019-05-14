@@ -3,7 +3,10 @@ package chapter04
 import chapter04.Problem03.*
 
 /**
+ * 피자 프렌차이즈 사업
  *
+ * 이제 여러 동네에도 PizzaStore 가 있었으면 하는 바램에 프렌차이즈를 운영하게 되었습니다.
+ * 지역별로 조금씩 다른 (뉴욕과 시카고 스타일의) PizzaStore 을 만들어 보겠습니다.
  */
 class Problem03  {
 
@@ -107,6 +110,7 @@ class Problem03  {
 
 fun main() {
 
-    PizzaStore(NYPizzaFactory())
-        .orderPizza("cheese")
+    PizzaStore(NYPizzaFactory()).orderPizza("cheese")
+
+    PizzaStore(ChicagoPizzaFactory()).orderPizza("cheese")
 }

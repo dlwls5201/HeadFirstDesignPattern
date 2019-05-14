@@ -37,7 +37,7 @@ class Problem05 {
 
     }
 
-    //NYStyleCheesePizza, ChicagoStyleCheesePizza 를 CheesePizza 로 합치고 재료 공장을 추가해 줍니다.
+    //NYStyleCheesePizza, ChicagoStyleCheesePizza 를 CheesePizza 로 합치고 재료 공장을 추가했습니다.
     abstract class Pizza(
         var dough: Dough? = null,
         var sauce: Sauce? = null,
@@ -45,6 +45,18 @@ class Problem05 {
         ) {
 
         abstract fun prepare()
+
+        fun bake() {
+            println("bake")
+        }
+
+        fun cut() {
+            println("cut")
+        }
+
+        fun box() {
+            println("box")
+        }
     }
 
     class CheesePizza(val ingredientFactory: PizzaIngredientFactory): Pizza() {
@@ -63,20 +75,33 @@ class Problem05 {
 
     abstract class PizzaStore {
 
+        fun orderPizza(type: String): Pizza? {
+
+            val pizza = createPizza(type)
+
+            pizza?.run {
+                prepare()
+                bake()
+                cut()
+                box()
+            }
+
+            return pizza
+        }
+
         abstract fun createPizza(type: String):Pizza?
     }
 
     class NYPizzaFactory : PizzaStore() {
 
+        /**
+         * 추상 팩토리 패턴에서는 인터페이스를 이용하여 서로 연관된, 또는 의존하는 객체를 구상 클래스를 지정하지 않고도 생성할 수 있습니다.
+         * 서로 연관된 또는 의존적인 객체들로 이루어진 제품군을 생성하기 위한 인터페이스를 제공합니다. 구상 클래스는 서브클래스에 의해 만들어지죠.
+         */
         override fun createPizza(type: String):Pizza? {
 
             var pizza: Pizza? = null
 
-            /**
-             * 추상 팩토리 패턴에서는 인터페이스를 이용하여 서로 연관된, 또는 의존하는 객체를 구상 클래스를 지정하지 않고도 생성할 수 있습니다.
-             *
-             * 서로 연관된 또는 의존적인 객체들로 이루어진 제품군을 생성하기 위한 인터페이스를 제공합니다. 구상 클래스는 서브클래스에 의해 만들어지죠.
-             */
             val nyIgredientFactory = NYPizzaIngredientFactory()
 
             when(type) {
@@ -85,10 +110,10 @@ class Problem05 {
                     pizza = CheesePizza(nyIgredientFactory)
                 }
                 "greek" -> {
-                    //pizza = NYStyleGreekPizza()
+                    //pizza = GreekPizza(nyIgredientFactory)
                 }
                 "pepperoni" -> {
-                    //pizza = NYStylePepperoniPizza()
+                    //pizza = PepperoniPizza(nyIgredientFactory)
                 }
             }
 
