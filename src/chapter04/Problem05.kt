@@ -1,5 +1,7 @@
 package chapter04
 
+import chapter04.Problem05.*
+
 /**
  *  분점마다 거리가 있어 사용하는 재료의 원산지가 다릅니다.
  *  분점에서 좋은 재료를 사용하도록 관리해봅시다. 원재료를 생산하는 공장을 만들고 분점까지 재료를 배달할 수 있게 해보겠습니다.
@@ -92,7 +94,7 @@ class Problem05 {
         abstract fun createPizza(type: String):Pizza?
     }
 
-    class NYPizzaFactory : PizzaStore() {
+    class NYPizzaStore : PizzaStore() {
 
         /**
          * 추상 팩토리 패턴에서는 인터페이스를 이용하여 서로 연관된, 또는 의존하는 객체를 구상 클래스를 지정하지 않고도 생성할 수 있습니다.
@@ -124,5 +126,7 @@ class Problem05 {
 }
 
 fun main() {
+
+    NYPizzaStore().orderPizza("cheese")
 
 }

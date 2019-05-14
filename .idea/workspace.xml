@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53e71a27-9bab-47f1-9919-2595fbb069ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/puzzle/Puzzle04_1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/puzzle/Puzzle04_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/puzzle/Puzzle04_3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter04/Problem03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/Problem03.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$CheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$ChicagoPizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$ChicagoPizzaFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$GreekPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$GreekPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$NYPizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$NYPizzaFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PepperoniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme04.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/readme/readme04.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter04/Problem05.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/Problem05.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readme/readme04.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/readme/readme04.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,17 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter04/Problem01.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="29" selection-start-line="29" selection-end-line="53" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter04/Problem02.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-477">
-              <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="292">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -40,35 +44,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter04/Problem03.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="26">
               <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter04/Problem04.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="90" column="54" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="54" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter04/Problem05.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="382">
+              <caret line="129" column="4" lean-forward="true" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/readme/readme04.md">
+        <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle04_1.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="114" selection-start-line="114" selection-end-line="129" selection-end-column="42" />
+            <state relative-caret-position="307">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle04_2.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle04_3.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+              <folding>
+                <element signature="e#16#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +116,7 @@
       <find>팩토리 메소드는 객체 생성을 처리하며, 팫토리 메소드를 이용하면 객체를 생성하는 작업을 서브클래스에 캡슐화시킬 수 있습니다</find>
       <find>cheesePIzza</find>
       <find>PizzaStore</find>
+      <find>puzzle</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -114,8 +140,12 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/chapter04/Problem03.kt" />
         <option value="$PROJECT_DIR$/src/chapter04/Problem04.kt" />
-        <option value="$PROJECT_DIR$/src/chapter04/Problem05.kt" />
         <option value="$PROJECT_DIR$/src/readme/readme04.md" />
+        <option value="$PROJECT_DIR$/src/puzzle/Puzzle04.kt" />
+        <option value="$PROJECT_DIR$/src/puzzle/Puzzle04_2.kt" />
+        <option value="$PROJECT_DIR$/src/puzzle/Puzzle04_1.kt" />
+        <option value="$PROJECT_DIR$/src/puzzle/Puzzle04_3.kt" />
+        <option value="$PROJECT_DIR$/src/chapter04/Problem05.kt" />
       </list>
     </option>
   </component>
@@ -196,10 +226,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/puzzle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/puzzle" />
       <recent name="$PROJECT_DIR$/src/chapter04" />
       <recent name="$PROJECT_DIR$/src/chapter03" />
     </key>
@@ -216,33 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter03.Problem02Kt">
-    <configuration name="chapter03.Problem02Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter03.Problem02Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chapter03.Problem03Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter03.Problem03Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.puzzle.Puzzle04_3Kt">
     <configuration name="chapter03.Problem04Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="VM_PARAMETERS" />
@@ -269,12 +274,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chapter04.Problem05Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter04.Problem05Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="puzzle.Puzzle04_1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="puzzle.Puzzle04_1Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="puzzle.Puzzle04_3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="puzzle.Puzzle04_3Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.puzzle.Puzzle04_3Kt" />
+        <item itemvalue="Kotlin.chapter04.Problem05Kt" />
+        <item itemvalue="Kotlin.puzzle.Puzzle04_1Kt" />
         <item itemvalue="Kotlin.chapter04.Problem04Kt" />
         <item itemvalue="Kotlin.chapter03.Problem04Kt" />
-        <item itemvalue="Kotlin.chapter03.Problem03Kt" />
-        <item itemvalue="Kotlin.chapter03.Problem02Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +340,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19957082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18383405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +349,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33975902" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3385542" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle03.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter03/LowerCaseInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
@@ -428,24 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter04/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="29" selection-start-line="29" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter04/Problem02.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-477">
           <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter04/Problem05.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -456,17 +480,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle03.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter04/Problem01.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle04_3.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+          <folding>
+            <element signature="e#16#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle04_2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/puzzle/Puzzle04_1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter04/Problem03.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="26">
           <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter04/Problem04.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="90" column="54" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="54" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter04/Problem05.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="129" column="4" lean-forward="true" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
         </state>
       </provider>
     </entry>
