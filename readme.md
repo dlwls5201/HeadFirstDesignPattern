@@ -10,6 +10,8 @@ HeadFirstDesignPattern 책을 보며 공부한 내용을 정리한 저장소 입
 - [Chapter03 데코레이터 패턴](/src/readme/readme03.md)
 - [Chapter04 팩토리 패턴](/src/readme/readme04.md)
 - [Chapter05 싱글톤 패턴](/src/readme/readme05.md)
+- [Chapter05 커맨드 패턴](/src/readme/readme06.md)
+- [Chapter05 어댑터 패턴과 퍼사드 패턴](/src/readme/readme07.md)
 
 ## 블로그
 
@@ -35,6 +37,3 @@ HeadFirstDesignPattern 책을 보며 공부한 내용을 정리한 저장소 입
 
 - 추상화된 것에 의존하도록 만들어라. 구상클래스에 의존하도록 많들지 않도록 한다.
 
-### chapter05
-
-- ??

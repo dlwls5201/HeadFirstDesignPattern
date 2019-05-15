@@ -2,147 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53e71a27-9bab-47f1-9919-2595fbb069ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter06/Problem01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter06/Problem02.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter06/Problem03.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter06/Problem04.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/readme/readme06.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/COST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/COST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$Beverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$EspressoWithSteamedMilkAndMocha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$EspressoWithSteamedMilkAndMocha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$EspressoWithSteamedmMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01$EspressoWithSteamedmMilk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem01Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02$Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02$Beverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02$DarkRoast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02$DarkRoast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem02Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Beverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$CondimentDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$CondimentDecorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$DarkRoast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$DarkRoast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Decaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Decaf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Espresso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$HouseBlend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$HouseBlend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Mocha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Mocha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Soy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Soy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$SteamMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$SteamMilk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Whip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03$Whip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem03Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04$Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04$Beverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04$Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04$Espresso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04$SteamMilk1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04$SteamMilk1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04$SteamMilk2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04$SteamMilk2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter03/Problem04Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$CheesePizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$GreekPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$GreekPizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$PepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$PepperoniPizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$Pizza$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$Pizza$DefaultImpls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01$Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem01Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$CheesePizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$GreekPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$GreekPizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$PepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$PepperoniPizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$PizzaStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$SimplePizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02$SimplePizzaFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem02Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$CheesePizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$ChicagoPizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$ChicagoPizzaFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$GreekPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$GreekPizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$NYPizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$NYPizzaFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PepperoniPizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03$PizzaStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem03Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$ChicagoPizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$ChicagoPizzaFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$ChicagoStyleCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$ChicagoStyleCheesePizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$NYPizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$NYPizzaFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$NYStyleCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$NYStyleCheesePizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04$PizzaStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem04Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$Cheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$Cheese.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$CheesePizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$Dough.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$Dough.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$NYPizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$NYPizzaIngredientFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$NYPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$NYPizzaStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$Pizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$PizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$PizzaIngredientFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$PizzaStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$Sauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05$Sauce.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/chapter04/Problem05Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/AxeBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/AxeBehavior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/BowAndArrowBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/BowAndArrowBehavior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/King.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/KnifeBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/KnifeBehavior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Knight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle01Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle01Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Beverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$CondimentDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$CondimentDecorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$DarkRoast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$DarkRoast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Decaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Decaf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Espresso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$HouseBlend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$HouseBlend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Mocha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Mocha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$SIZE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$SIZE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Soy$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Soy$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Soy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Soy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$SteamMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$SteamMilk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Whip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03$Whip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle03Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$로맨스영화.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$로맨스영화.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$영화.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$영화.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$영화공장$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$영화공장$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$영화공장.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$영화공장.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$영화장르.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$영화장르.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$호러영화.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1$호러영화.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_1Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$로맨스영화.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$로맨스영화.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$미국영화팩토리$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$미국영화팩토리$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$미국영화팩토리.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$미국영화팩토리.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$영화.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$영화.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$영화공장.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$영화공장.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$영화장르.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$영화장르.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$영화팩토리.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$영화팩토리.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$한국영화팩토리$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$한국영화팩토리$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$한국영화팩토리.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$한국영화팩토리.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$호러영화.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2$호러영화.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$감독.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$감독.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$로맨스감독.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$로맨스감독.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$로맨스배우.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$로맨스배우.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$로맨스영화.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$로맨스영화.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$미국영화팩토리$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$미국영화팩토리$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$미국영화팩토리.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$미국영화팩토리.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$배우.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$배우.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$영화.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$영화.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$영화공장.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$영화공장.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$영화장르.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$영화장르.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$영화팩토리.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$영화팩토리.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$한국영화팩토리$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$한국영화팩토리$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$한국영화팩토리.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$한국영화팩토리.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$호러영화.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3$호러영화.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Puzzle04_3Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Queen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/SwordBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/SwordBehavior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Troll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/Troll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/WeaponBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/puzzle/WeaponBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -157,64 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/readme/readme05.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/readme/readme04.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/readme/readme06.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter06/Problem01.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter06/Problem02.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="179" selection-start-line="179" selection-end-line="186" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter06/Problem03.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2229">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter06/Problem04.kt">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+            <state relative-caret-position="195">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -265,7 +80,6 @@
         <option value="$PROJECT_DIR$/src/chapter03/Problem03.kt" />
         <option value="$PROJECT_DIR$/src/readme/readme05.md" />
         <option value="$PROJECT_DIR$/src/chapter04/Problem02.kt" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/chapter04/Problem03.kt" />
         <option value="$PROJECT_DIR$/src/chapter04/Problem04.kt" />
         <option value="$PROJECT_DIR$/src/readme/readme04.md" />
@@ -274,11 +88,12 @@
         <option value="$PROJECT_DIR$/src/puzzle/Puzzle04_1.kt" />
         <option value="$PROJECT_DIR$/src/puzzle/Puzzle04_3.kt" />
         <option value="$PROJECT_DIR$/src/chapter04/Problem05.kt" />
-        <option value="$PROJECT_DIR$/src/readme/readme06.md" />
         <option value="$PROJECT_DIR$/src/chapter06/Problem01.kt" />
         <option value="$PROJECT_DIR$/src/chapter06/Problem02.kt" />
         <option value="$PROJECT_DIR$/src/chapter06/Problem03.kt" />
         <option value="$PROJECT_DIR$/src/chapter06/Problem04.kt" />
+        <option value="$PROJECT_DIR$/src/readme/readme06.md" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -476,7 +291,7 @@
     <frame x="2560" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18189038" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18189038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -485,12 +300,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33722627" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33722627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33614457" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33576643" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32846716" />
@@ -584,13 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -695,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/readme/readme06.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -725,15 +526,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter06/Problem03.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2229">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="171">
+          <caret line="177" column="29" lean-forward="true" selection-start-line="177" selection-start-column="29" selection-end-line="177" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter06/Problem04.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        <state relative-caret-position="287">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/readme/readme06.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
