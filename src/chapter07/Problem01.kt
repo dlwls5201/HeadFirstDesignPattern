@@ -37,3 +37,7 @@ class Problem01 {
         }
     }
 }
+
+fun main() {
+
+}

@@ -64,23 +64,16 @@ class Problem01 {
             println("GarageDoor is Open")
         }
 
-        fun down() {
+        fun down() {}
 
-        }
+        fun stop() {}
 
-        fun stop() {
+        fun lightOn() {}
 
-        }
-
-        fun lightOn() {
-
-        }
-        fun lightOff() {
-
-        }
+        fun lightOff() {}
     }
 
-    class GrageDoorOpenCommand(val garageDoor: GarageDoor): Command {
+    class GarageDoorOpenCommand(val garageDoor: GarageDoor): Command {
         override fun execute() {
             with(garageDoor) {
                 up()
@@ -99,7 +92,7 @@ fun main() {
     val garageDoor = GarageDoor()
 
     val lightOn = LightOnCommand(light)
-    val garageOpen = GrageDoorOpenCommand(garageDoor)
+    val garageOpen = GarageDoorOpenCommand(garageDoor)
 
     with(remote) {
         setCommand(lightOn)
