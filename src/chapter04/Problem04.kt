@@ -86,13 +86,13 @@ class Problem04  {
          *  구상 클래스의 인스턴스를 만드는 일을 한 객체에서 전부 처리하는 방식에서 일련의 서브클래스에서 처리하는 방식으로 넘어오게 되었습니다.
          *  Pizza 인스턴스를 만드는 일은 이제 팩토리 역활을 하는 메소드에서 맡아서 처리합니다.
          *
-         *  팩토리 메소드는 객체 생성을 처리하며, 팫토리 메소드를 이용하면 객체를 생성하는 작업을 서브클래스에 캡슐화시킬 수 있습니다.
+         *  팩토리 메소드는 객체 생성을 처리하며, 팩토리 메소드를 이용하면 객체를 생성하는 작업을 서브클래스에 캡슐화시킬 수 있습니다.
          */
         abstract fun createPizza(type: String): Pizza?
 
     }
 
-    class NYPizzaFactory : PizzaStore() {
+    class NYPizzaStore : PizzaStore() {
 
         override fun createPizza(type: String):Pizza? {
 
@@ -115,7 +115,7 @@ class Problem04  {
         }
     }
 
-    class ChicagoPizzaFactory : PizzaStore(){
+    class ChicagoPizzaStore : PizzaStore(){
 
         override fun createPizza(type: String):Pizza? {
 
@@ -148,8 +148,8 @@ class Problem04  {
  */
 fun main() {
 
-    val nyStore = NYPizzaFactory()
-    val chicagoStyle = ChicagoPizzaFactory()
+    val nyStore = NYPizzaStore()
+    val chicagoStyle = ChicagoPizzaStore()
 
     var pizza: Pizza?
 

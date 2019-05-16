@@ -29,11 +29,19 @@ class Problem03  {
         }
     }
 
-    class CheesePizza: Pizza()
+    class NYStyleCheesePizza: Pizza()
 
-    class GreekPizza: Pizza()
+    class NYStyleGreekPizza: Pizza()
 
-    class PepperoniPizza: Pizza()
+    class NYStylePepperoniPizza: Pizza()
+
+
+    class ChicagoStyleCheesePizza: Pizza()
+
+    class ChicagoStyleGreekPizza: Pizza()
+
+    class ChicagoStylePepperoniPizza: Pizza()
+
 
     class PizzaStore(private val factory: PizzaFactory) {
 
@@ -67,13 +75,13 @@ class Problem03  {
             when(type) {
 
                 "cheese" -> {
-                    pizza = CheesePizza()
+                    pizza = NYStyleCheesePizza()
                 }
                 "greek" -> {
-                    pizza = GreekPizza()
+                    pizza = NYStyleGreekPizza()
                 }
                 "pepperoni" -> {
-                    pizza = PepperoniPizza()
+                    pizza = NYStylePepperoniPizza()
                 }
             }
 
@@ -91,13 +99,13 @@ class Problem03  {
             when(type) {
 
                 "cheese" -> {
-                    pizza = CheesePizza()
+                    pizza = ChicagoStyleCheesePizza()
                 }
                 "greek" -> {
-                    pizza = GreekPizza()
+                    pizza =  ChicagoStyleGreekPizza()
                 }
                 "pepperoni" -> {
-                    pizza = PepperoniPizza()
+                    pizza =  ChicagoStylePepperoniPizza()
                 }
             }
 

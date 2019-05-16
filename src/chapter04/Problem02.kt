@@ -58,7 +58,7 @@ class Problem02  {
 
     class SimplePizzaFactory {
 
-        fun createPizza(type: String):Pizza? {
+        fun createPizza(type: String): Pizza? {
 
             var pizza: Pizza? = null
 

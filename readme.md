@@ -3,7 +3,7 @@
 <img src="https://images-na.ssl-images-amazon.com/images/I/61ZG-hATOeL.jpg" width="60%">
 
 HeadFirstDesignPattern 책을 보며 공부한 내용을 정리한 저장소 입니다.
-정리한 내용은 제 블로그를 통해 확인하실 수 있습니다.
+정리한 내용은 제 블로그를 통해서도 확인하실 수 있습니다.
 
 - [Chapter01 스트래티지 패턴](/src/readme/readme01.md)
 - [Chapter02 옵저버 패턴](/src/readme/readme02.md)
