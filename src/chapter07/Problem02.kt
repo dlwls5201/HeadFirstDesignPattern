@@ -38,7 +38,7 @@ class Problem02 {
         }
     }
 
-    //오리를 칠면조로 만들어 주는 어댑터
+    //칠면조를 오리로 만들어 주는 어댑터
     class TurkeyAdapter(val turkey: Turkey): Duck {
         override fun quack() {
             turkey.gobble()
