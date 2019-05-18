@@ -61,7 +61,7 @@ class Problem01 {
     class GarageDoor {
 
         fun up() {
-            println("GarageDoor is Open")
+            println("Garage Door is Open")
         }
 
         fun down() {}

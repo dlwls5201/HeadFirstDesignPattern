@@ -95,26 +95,21 @@ class Problem03 {
     class GarageDoor {
 
         fun up() {
-            println("GarageDoor is Open")
+            println("Garage Door is Open")
         }
 
         fun down() {
-            println("GarageDoor is down")
+            println("Garage Door is down")
         }
 
-        fun stop() {
+        fun stop() {}
 
-        }
+        fun lightOn() {}
 
-        fun lightOn() {
-
-        }
-        fun lightOff() {
-
-        }
+        fun lightOff() {}
     }
 
-    class GrageDoorOpenCommand(val garageDoor: GarageDoor): Command {
+    class GargeDoorOpenCommand(val garageDoor: GarageDoor): Command {
         override fun execute() {
             garageDoor.up()
         }
@@ -124,7 +119,7 @@ class Problem03 {
         }
     }
 
-    class GrageDoorCloseCommand(val garageDoor: GarageDoor): Command {
+    class GargeDoorCloseCommand(val garageDoor: GarageDoor): Command {
         override fun execute() {
             garageDoor.down()
         }
@@ -186,7 +181,7 @@ class Problem03 {
 
 fun main() {
 
-    val RemoteControlWithUndo = RemoteControlWithUndo()
+    val remoteControlWithUndo = RemoteControlWithUndo()
 
     val light = Light()
     val garageDoor = GarageDoor()
@@ -195,24 +190,26 @@ fun main() {
     val lightOn = LightOnCommand(light)
     val lightOff = LightOffCommand(light)
 
-    val garageDoorOn = GrageDoorOpenCommand(garageDoor)
-    val garageDoorOff = GrageDoorCloseCommand(garageDoor)
+    val garageDoorOn = GargeDoorOpenCommand(garageDoor)
+    val garageDoorOff = GargeDoorCloseCommand(garageDoor)
 
     val stereoOnWithCD = StereoOnWithCDCommand(stereo)
-    val steretOff = StereoOffCommand(stereo)
+    val stereoOff = StereoOffCommand(stereo)
 
-    RemoteControlWithUndo.setCommand(0, lightOn, lightOff)
-    RemoteControlWithUndo.setCommand(1, garageDoorOn, garageDoorOff)
-    RemoteControlWithUndo.setCommand(2, stereoOnWithCD, steretOff)
+    remoteControlWithUndo.setCommand(0, lightOn, lightOff)
+    remoteControlWithUndo.setCommand(1, garageDoorOn, garageDoorOff)
+    remoteControlWithUndo.setCommand(2, stereoOnWithCD, stereoOff)
 
-    println(RemoteControlWithUndo)
+    println(remoteControlWithUndo)
 
-    RemoteControlWithUndo.onButtonWasPushed(0)
-    RemoteControlWithUndo.undoButtonWasPushed()
+    remoteControlWithUndo.onButtonWasPushed(0)
+    remoteControlWithUndo.undoButtonWasPushed()
     println()
-    RemoteControlWithUndo.onButtonWasPushed(1)
-    RemoteControlWithUndo.offButtonWasPushed(1)
+    remoteControlWithUndo.onButtonWasPushed(1)
+    remoteControlWithUndo.offButtonWasPushed(1)
     println()
-    RemoteControlWithUndo.onButtonWasPushed(2)
-    RemoteControlWithUndo.offButtonWasPushed(2)
+    remoteControlWithUndo.onButtonWasPushed(2)
+    remoteControlWithUndo.offButtonWasPushed(2)
+    println()
+    remoteControlWithUndo.undoButtonWasPushed()
 }
