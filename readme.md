@@ -42,5 +42,3 @@ HeadFirstDesignPattern 책을 보며 공부한 내용을 정리한 저장소 입
 - 최소 지식 원칙으로 정말 친한 친구하고만 얘기하라
 
 
-test
-
