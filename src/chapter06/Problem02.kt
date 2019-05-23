@@ -77,26 +77,21 @@ class Problem02 {
     class GarageDoor {
 
         fun up() {
-            println("GarageDoor is Open")
+            println("Garage Door is Open")
         }
 
         fun down() {
-            println("GarageDoor is down")
+            println("Garage Door is down")
         }
 
-        fun stop() {
+        fun stop() {}
 
-        }
+        fun lightOn() {}
 
-        fun lightOn() {
-
-        }
-        fun lightOff() {
-
-        }
+        fun lightOff() {}
     }
 
-    class GrageDoorOpenCommand(val garageDoor: GarageDoor): Command {
+    class GargeDoorOpenCommand(val garageDoor: GarageDoor): Command {
         override fun execute() {
             with(garageDoor) {
                 up()
@@ -105,7 +100,7 @@ class Problem02 {
 
     }
 
-    class GrageDoorCloseCommand(val garageDoor: GarageDoor): Command {
+    class GargeDoorCloseCommand(val garageDoor: GarageDoor): Command {
         override fun execute() {
             with(garageDoor) {
                 down()
@@ -165,15 +160,15 @@ fun main() {
     val lightOn = LightOnCommand(light)
     val lightOff = LightOffCommand(light)
 
-    val garageDoorOn = GrageDoorOpenCommand(garageDoor)
-    val garageDoorOff = GrageDoorCloseCommand(garageDoor)
+    val garageDoorOn = GargeDoorOpenCommand(garageDoor)
+    val garageDoorOff = GargeDoorCloseCommand(garageDoor)
 
     val stereoOnWithCD = StereoOnWithCDCommand(stereo)
-    val steretOff = StereoOffCommand(stereo)
+    val stereoOff = StereoOffCommand(stereo)
 
     remoteControl.setCommand(0, lightOn, lightOff)
     remoteControl.setCommand(1, garageDoorOn, garageDoorOff)
-    remoteControl.setCommand(2, stereoOnWithCD, steretOff)
+    remoteControl.setCommand(2, stereoOnWithCD, stereoOff)
 
     println(remoteControl)
 
