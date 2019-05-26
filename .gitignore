@@ -1,2 +1,14 @@
-.idea/
+# IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+
 out/
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
