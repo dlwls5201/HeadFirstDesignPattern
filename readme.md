@@ -10,8 +10,9 @@ HeadFirstDesignPattern 책을 보며 공부한 내용을 정리한 저장소 입
 - [Chapter03 데코레이터 패턴](/src/readme/readme03.md)
 - [Chapter04 팩토리 패턴](/src/readme/readme04.md)
 - [Chapter05 싱글톤 패턴](/src/readme/readme05.md)
-- [Chapter05 커맨드 패턴](/src/readme/readme06.md)
-- [Chapter05 어댑터 패턴과 퍼사드 패턴](/src/readme/readme07.md)
+- [Chapter06 커맨드 패턴](/src/readme/readme06.md)
+- [Chapter07 어댑터 패턴과 퍼사드 패턴](/src/readme/readme07.md)
+- [Chapter08 템플릿 메소드 패턴](/src/readme/readme08.md)
 
 ## 블로그
 
