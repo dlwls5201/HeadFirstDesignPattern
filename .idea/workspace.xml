@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6fedac6-9c13-4d49-9bc8-410cad7bb3dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter09/Problem03.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter09/Problem04.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter09/Problem05.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter09/Problem06.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter09/Problem07.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter08/Problem04.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter08/Problem04.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter09/Problem01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter09/Problem01.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter09/Problem02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter09/Problem02.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readme/readme09.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/readme/readme09.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,47 +28,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/readme/readme09.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter08/Problem01.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="56" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter08/Problem02.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter08/Problem03.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="292">
+              <caret line="31" column="91" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter08/Problem04.kt">
+        <entry file="file://$PROJECT_DIR$/src/chapter09/Problem07.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="88" selection-start-line="88" selection-end-line="93" selection-end-column="1" />
-              <folding>
-                <element signature="e#19#110#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="142" column="70" selection-start-line="142" selection-start-column="70" selection-end-line="142" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -78,10 +56,23 @@
     <findStrings>
       <find>`</find>
       <find>lterator</find>
+      <find>remove</find>
+      <find>DinerMenu</find>
+      <find>Problem03</find>
+      <find>Problem04</find>
+      <find>Problem05</find>
+      <find>Problem06</find>
+      <find>add</find>
+      <find>Waitress</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>Iterator`</replace>
+      <replace>Problem05</replace>
+      <replace>Problem06</replace>
+      <replace>Problem07</replace>
+      <replace>Problem04</replace>
+      <replace>Problem07`</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -95,11 +86,17 @@
         <option value="$PROJECT_DIR$/src/chapter08/Problem03.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/chapter09/Problem09.kt" />
-        <option value="$PROJECT_DIR$/src/chapter09/Problem02.kt" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/src/readme/readme09.md" />
-        <option value="$PROJECT_DIR$/src/readme/readme08.md" />
         <option value="$PROJECT_DIR$/src/chapter08/Problem04.kt" />
+        <option value="$PROJECT_DIR$/src/readme/readme08.md" />
+        <option value="$PROJECT_DIR$/src/chapter09/Problem02.kt" />
+        <option value="$PROJECT_DIR$/src/chapter09/Problem03.kt" />
+        <option value="$PROJECT_DIR$/src/chapter09/Problem01.kt" />
+        <option value="$PROJECT_DIR$/src/chapter09/Problem04.kt" />
+        <option value="$PROJECT_DIR$/src/chapter09/Problem05.kt" />
+        <option value="$PROJECT_DIR$/src/chapter09/Problem06.kt" />
+        <option value="$PROJECT_DIR$/src/readme/readme09.md" />
+        <option value="$PROJECT_DIR$/src/chapter09/Problem07.kt" />
       </list>
     </option>
   </component>
@@ -117,7 +114,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,7 +130,7 @@
               <item name="HeadFirstDesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="HeadFirstDesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HeadFirstDesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -146,11 +142,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter09" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -173,20 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter08.Problem04Kt">
-    <configuration name="chapter08.Problem04Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter08.Problem04Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.chapter09.Problem07Kt">
     <configuration name="chapter09.Problem01Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="VM_PARAMETERS" />
@@ -200,14 +184,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="puzzle.Puzzle06Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter09.Problem02Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="puzzle.Puzzle06Kt" />
+      <option name="MAIN_CLASS_NAME" value="chapter09.Problem02Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter09.Problem05Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter09.Problem05Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter09.Problem06Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter09.Problem06Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter09.Problem07Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter09.Problem07Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,9 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.chapter08.Problem04Kt" />
+        <item itemvalue="Kotlin.chapter09.Problem07Kt" />
+        <item itemvalue="Kotlin.chapter09.Problem06Kt" />
+        <item itemvalue="Kotlin.chapter09.Problem05Kt" />
+        <item itemvalue="Kotlin.chapter09.Problem02Kt" />
         <item itemvalue="Kotlin.chapter09.Problem01Kt" />
-        <item itemvalue="Kotlin.puzzle.Puzzle06Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +263,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19527897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -248,7 +273,7 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,38 +357,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem02.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/readme/readme08.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="32" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter08/Problem01.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="840">
+          <caret line="56" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/readme/readme09.md">
+    <entry file="file://$PROJECT_DIR$/src/chapter08/Problem02.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -374,20 +378,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter08/Problem02.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter08/Problem04.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="1290">
           <caret line="88" selection-start-line="88" selection-end-line="93" selection-end-column="1" />
           <folding>
             <element signature="e#19#110#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/readme/readme08.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Iterator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="871" column="23" selection-start-line="871" selection-start-column="23" selection-end-line="871" selection-end-column="23" />
+          <folding>
+            <element signature="e#32196#32197#0" expanded="true" />
+            <element signature="e#32228#32229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem02.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem01.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem03.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem04.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+          <folding>
+            <element signature="e#19#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem05.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem06.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/readme/readme09.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="31" column="91" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/jvm/annotations/JvmPlatformAnnotations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem07.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="142" column="70" selection-start-line="142" selection-start-column="70" selection-end-line="142" selection-end-column="70" />
         </state>
       </provider>
     </entry>
