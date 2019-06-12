@@ -45,8 +45,7 @@ class Problem07 {
             throw UnsupportedEncodingException()
         }
 
-        //TODO 이걸 추가해줍니다.
-        open fun creatIterator(): Iterator<MenuComponent> {
+        open fun createIterator(): Iterator<MenuComponent> {
             throw UnsupportedEncodingException()
         }
     }
@@ -56,7 +55,7 @@ class Problem07 {
         val description: String
     ): MenuComponent() {
 
-        val menuComponents = ArrayList<MenuComponent>()
+        private val menuComponents = ArrayList<MenuComponent>()
 
         override fun add(menuComponent: MenuComponent) {
             menuComponents.add(menuComponent)
@@ -82,10 +81,6 @@ class Problem07 {
             }
 
         }
-
-        override fun creatIterator(): Iterator<MenuComponent> {
-            return super.creatIterator()
-        }
     }
 
 
@@ -110,7 +105,7 @@ class Problem07 {
             println(" -- $description")
         }
 
-        override fun creatIterator(): Iterator<MenuComponent> {
+        override fun createIterator(): Iterator<MenuComponent> {
             return NullIterator()
         }
     }
@@ -128,7 +123,7 @@ class Problem07 {
     }
 
     class Waitress(
-        val allMenus: MenuComponent
+        private val allMenus: MenuComponent
     ) {
 
         fun printMenu() {
@@ -136,7 +131,7 @@ class Problem07 {
         }
 
         fun printVegetarianMenu() {
-            val iterator = allMenus.creatIterator()
+            val iterator = allMenus.createIterator()
             println("VEGETARIAN MENU")
             while (iterator.hasNext()) {
                 val menuComponent = iterator.next()
@@ -168,5 +163,4 @@ fun main() {
         MenuItem("애플 파이", "바삭바삭한 크러스트에 바닐라 아이스크림이 얹혀 있는 애플 파이", true, 1.59))
 
     Waitress(allMenus).printMenu()
-
 }

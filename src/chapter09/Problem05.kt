@@ -77,7 +77,7 @@ class Problem05 {
          *  printMenu()를 세 번이나 호출해야 됩니다.
          *  새로운 메뉴가 추가될 때마다 Waitress에 코드를 추가해야 한다는 것도 큰 문제입니다. OCP에 위배!
          *
-         *  메뉴 구현을 분리시키고 반복작업에 필요한 부분은 반복자로 뽀ㅃ아낸 것만 해도 매우 훌륭하죠.
+         *  메뉴 구현을 분리시키고 반복작업에 필요한 부분은 반복자로 뽑아낸 것만 해도 매우 훌륭하죠.
          *  하지만 여전히 여러 메뉴를 서로 다른 독립적인 객체로 다루고 있다는 문제가 있습니다.
          *  여러 메뉴를 한꺼번에 관리할 수 있는 방법이 필요합니다.
          */
@@ -89,13 +89,13 @@ class Problem05 {
 
             val cafeMenu = cafeMenu.createIterator()
 
-            println("-- 아침메뉴 --")
+            println("-- 팬케이크 하우스 메뉴 --")
             printMenu(pancakeHouseMenu)
 
-            println("-- 저녁메뉴 --")
+            println("-- 저녁 메뉴 --")
             printMenu(dinerMenu)
 
-            println("-- 카페메뉴 --")
+            println("-- 카페 메뉴 --")
             printMenu(cafeMenu)
         }
 
@@ -107,23 +107,6 @@ class Problem05 {
                 println(menuItem)
             }
         }
-
-        fun printBreakfastMenu() {
-
-        }
-
-        fun printLunchMenu() {
-
-        }
-
-        fun printVegetarianMenu() {
-
-        }
-
-        fun isItemVegetaian(name: String): Boolean {
-            return false
-        }
-
     }
 }
 

@@ -18,16 +18,14 @@ class Problem03 {
     )
 
     interface Menu {
-
         fun createIterator(): Iterator<MenuItem>
     }
 
     class PancakeHouseMenu(
-        val menuItems: ArrayList<MenuItem> = arrayListOf()
+        private val menuItems: ArrayList<MenuItem> = arrayListOf()
     ) : Menu {
 
         init {
-
             menuItems.add(MenuItem("펜케이크 세트 1", "세트 1", true, 2.99))
             menuItems.add(MenuItem("펜케이크 세트 2", "세트 2", true, 1.99))
             menuItems.add(MenuItem("펜케이크 세트 3", "세트 3", true, 0.99))
@@ -66,29 +64,12 @@ class Problem03 {
             printMenu(dinerMenu)
         }
 
-        fun printMenu(iterator: Iterator<MenuItem>) {
+        private fun printMenu(iterator: Iterator<MenuItem>) {
             while (iterator.hasNext()) {
                 val menuItem = iterator.next()
                 println(menuItem.name)
             }
         }
-
-        fun printBreakfastMenu() {
-
-        }
-
-        fun printLunchMenu() {
-
-        }
-
-        fun printVegetarianMenu() {
-
-        }
-
-        fun isItemVegetaian(name: String): Boolean {
-            return false
-        }
-
     }
 }
 

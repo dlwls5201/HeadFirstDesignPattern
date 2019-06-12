@@ -84,29 +84,12 @@ class Problem04 {
             printMenu(dinerMenu)
         }
 
-        fun printMenu(iterator: Iterator<MenuItem>) {
+        private fun printMenu(iterator: Iterator<MenuItem>) {
             while (iterator.hasNext()) {
                 val menuItem = iterator.next()
                 println(menuItem.name)
             }
         }
-
-        fun printBreakfastMenu() {
-
-        }
-
-        fun printLunchMenu() {
-
-        }
-
-        fun printVegetarianMenu() {
-
-        }
-
-        fun isItemVegetaian(name: String): Boolean {
-            return false
-        }
-
     }
 }
 

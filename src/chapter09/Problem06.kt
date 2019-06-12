@@ -96,23 +96,6 @@ class Problem06 {
                 println(menuItem)
             }
         }
-
-        fun printBreakfastMenu() {
-
-        }
-
-        fun printLunchMenu() {
-
-        }
-
-        fun printVegetarianMenu() {
-
-        }
-
-        fun isItemVegetaian(name: String): Boolean {
-            return false
-        }
-
     }
 }
 
