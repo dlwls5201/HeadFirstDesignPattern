@@ -81,8 +81,23 @@ class Problem07 {
             }
 
         }
+
+        override fun createIterator(): Iterator<MenuComponent> {
+            return CompositeIterator(menuComponents.iterator())
+        }
     }
 
+    class CompositeIterator(val iterator: Iterator<MenuComponent>) : Iterator<MenuComponent> {
+
+        override fun hasNext(): Boolean {
+            TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        }
+
+        override fun next(): MenuComponent {
+            TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        }
+
+    }
 
     class MenuItem(
         val name: String,
@@ -135,7 +150,12 @@ class Problem07 {
             println("VEGETARIAN MENU")
             while (iterator.hasNext()) {
                 val menuComponent = iterator.next()
-                if(menuComponent.isVegetarian()) menuComponent.print()
+
+                try {
+                    if(menuComponent.isVegetarian()) menuComponent.print()
+                } catch (e: UnsupportedOperationException) {
+
+                }
             }
         }
     }
