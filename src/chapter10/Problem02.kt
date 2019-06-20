@@ -29,18 +29,23 @@ class Problem02 {
     }
 
     class GumballMachine(
-        var soldOutState: State,
-        var noQuarterState: State,
-        var hasQuarterState: State,
-        var soldState: State,
-        var state: State = soldOutState,
         var count: Int = 0
     ) {
+
+        val soldOutState: State
+        val noQuarterState: State
+        val hasQuarterState: State
+        var soldState: State
+
+        var state: State
+
         init {
             soldOutState = SoldOutState(this)
             noQuarterState = NoQuarterState(this)
             hasQuarterState = HasQuarterState(this)
             soldState = SoldState(this)
+
+            state = soldOutState
             if(count > 0) state = noQuarterState
         }
 
@@ -119,19 +124,19 @@ class Problem02 {
     class SoldOutState(private val gumballMachine: GumballMachine) : State {
 
         override fun insertQuarter() {
-
+            println("매진")
         }
 
         override fun ejectQuarter() {
-
+            println("매진")
         }
 
         override fun turnCrank() {
-
+            println("매진")
         }
 
         override fun dispense() {
-
+            println("알맹이가 나갈 수 없습니다.")
         }
     }
 }
