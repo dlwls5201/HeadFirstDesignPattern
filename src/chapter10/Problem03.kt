@@ -26,7 +26,7 @@ class Problem03 {
     class GumballMachine(
         var count: Int = 0
     ) : State {
-
+        
         val soldOutState: State
         val noQuarterState: State
         val hasQuarterState: State
@@ -49,6 +49,7 @@ class Problem03 {
             state = soldOutState
 
             if (count > 0) state = noQuarterState
+
         }
 
         override fun insertQuarter() {
