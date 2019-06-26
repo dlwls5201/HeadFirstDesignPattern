@@ -1,4 +1,4 @@
-package chapter11;
+package chapter11.myremote;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

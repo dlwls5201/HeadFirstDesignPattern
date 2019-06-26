@@ -1,4 +1,4 @@
-package chapter11;
+package chapter11.myremote;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
