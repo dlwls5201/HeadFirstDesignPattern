@@ -15,7 +15,10 @@ public class MatchMakingTestDrive {
 
     public void drive() {
         PersonBean joe = new PersonBeanImpl();
+
         PersonBean ownerProxy = getOwnerProxy(joe);
+
+        PersonBean nonOwnerProxy = getNonOwnerProxy(joe);
     }
 
     PersonBean getOwnerProxy(PersonBean person) {

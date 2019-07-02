@@ -71,22 +71,13 @@ class ImageProxy(
     }
 
     override fun paintIcon() {
-        if(imageIcon != null) {
-
-        } else {
-            // 로딩 화면 그리기
-            if(!retrieving) {
-                retrieving = true
-                //ImageIcon 생성
-
-                //상태 변환
-                state = cachedState
-            }
-        }
+        state.drawImage()
     }
+
+    //TODO imageIcon, retrieving
 }
 
-/**\
+/**
  * 상태
  *
  * 1.캐싱 된 상태(ImageLoaded)
@@ -100,6 +91,8 @@ interface State {
     fun getImageWidth(): Int
 
     fun getImageHeight(): Int
+
+    fun drawImage()
 }
 
 class CachedState(
@@ -109,6 +102,11 @@ class CachedState(
     override fun getImageWidth() = imageProxy.imageIcon!!.getIconWidth()
 
     override fun getImageHeight()= imageProxy.imageIcon!!.getIconHeight()
+
+    override fun drawImage() {
+        imageProxy.imageIcon!!.paintIcon()
+    }
+
 }
 
 class NotCachedState(
@@ -119,6 +117,11 @@ class NotCachedState(
 
     override fun getImageHeight() = 600
 
+    override fun drawImage() {
+        //handler -> imageProxy = new ImageIcon()
+        imageProxy.state = imageProxy.cachedState
+        imageProxy.paintIcon()
+    }
 }
 
 
