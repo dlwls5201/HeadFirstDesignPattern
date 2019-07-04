@@ -35,10 +35,10 @@ class QuackCounter04(
     }
 
     override fun notifyObservers() {
+        //TODO 않해줘도 동작 않함
         duck.notifyObservers()
     }
 
-    //TODO ?_?
     override fun toString(): String {
         return "Decorator $duck"
     }
@@ -214,6 +214,35 @@ class CountingDuckFactory04 : AbstractDuckFactory04() {
 
 }
 
+//컴포지트 패턴
+class Flock04 : Quackable04 {
+
+    private val mQuackers = arrayListOf<Quackable04>()
+
+    fun add(vararg quackers: Quackable04) {
+        for(quacker in quackers) {
+            mQuackers.add(quacker)
+        }
+    }
+
+    override fun quack() {
+        for (quacker in mQuackers) {
+            quacker.quack()
+        }
+    }
+
+    override fun registerObserver(observer: Observer) {
+        for (quacker in mQuackers) {
+            quacker.registerObserver(observer)
+        }
+    }
+
+    override fun notifyObservers() {
+        //Quackable 객체에서 알아서 옵저버한테 연락을 돌리기 때문에 Flock 자체에서는 아무 일도 하지 않아도 됩니다.
+    }
+}
+
+
 
 fun main() {
 
@@ -226,22 +255,25 @@ fun main() {
     val rubberDuck: Quackable04 = duckFactory.createRubberDuck()
 
     // 오리떼 생성
-   //TODO
+    val flockOfDucks = Flock04()
+    flockOfDucks.add(mallardDuck, redheadDuck, duckCall, rubberDuck)
 
     println("\nDuck Simulator : With Observer")
     val quackologist = Quackologist()
 
     println()
 
-    mallardDuck.registerObserver(quackologist)
-    redheadDuck.registerObserver(quackologist)
-    duckCall.registerObserver(quackologist)
-    rubberDuck.registerObserver(quackologist)
+    flockOfDucks.registerObserver(quackologist)
+    //mallardDuck.registerObserver(quackologist)
+    //redheadDuck.registerObserver(quackologist)
+    //duckCall.registerObserver(quackologist)
+    //rubberDuck.registerObserver(quackologist)
 
-    simulate(mallardDuck)
-    simulate(redheadDuck)
-    simulate(duckCall)
-    simulate(rubberDuck)
+    simulate(flockOfDucks)
+    //simulate(mallardDuck)
+    //simulate(redheadDuck)
+    //simulate(duckCall)
+    //simulate(rubberDuck)
 
     println("\nThe ducks quacked ${QuackCounter04.getQuacks()} times")
 }
