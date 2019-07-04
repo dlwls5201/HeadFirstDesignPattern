@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70a0b1cb-8007-4bee-a933-78b6c26e2edb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter11/MyRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/MyRemoteClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/MyRemoteImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/readme/readme11.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter10/Problem03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter10/Problem03.kt" afterDir="false" />
+    <list default="true" id="53fbbd92-6698-4ebb-af1a-8e16f2aedd69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/META-INF/DesignPattern.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter12/Problem04.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter12/Problem04.kt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,128 +16,93 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/Problem05.kt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter11/MyRemoteClient.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/Problem04.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="-1072">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
+                <element signature="n#!!doc;n#QuackObservable#0" />
+                <element signature="n#!!block;n#toString#0;n#!!block;n#QuackCounter04#0" />
+                <element signature="n#!!doc;n#Observable#0" />
+                <element signature="e#1408#1496#1" />
+                <element signature="n#!!block;n#quack#0;n#!!block;n#MallardDuck04#0" />
+                <element signature="n#!!block;n#registerObserver#0;n#!!block;n#MallardDuck04#0" />
+                <element signature="n#!!block;n#notifyObservers#0;n#!!block;n#MallardDuck04#0" />
+                <element signature="n#!!block;n#toString#0;n#!!block;n#MallardDuck04#0" />
+                <element signature="n#!!block;n#RedheadDuck04#0" />
+                <element signature="n#!!block;n#quack#0;n#!!block;n#RedheadDuck04#0" />
+                <element signature="n#!!block;n#registerObserver#0;n#!!block;n#RedheadDuck04#0" />
+                <element signature="n#!!block;n#notifyObservers#0;n#!!block;n#RedheadDuck04#0" />
+                <element signature="n#!!block;n#toString#0;n#!!block;n#RedheadDuck04#0" />
+                <element signature="n#!!block;n#DuckCall04#0" />
+                <element signature="n#!!block;n#quack#0;n#!!block;n#DuckCall04#0" />
+                <element signature="n#!!block;n#registerObserver#0;n#!!block;n#DuckCall04#0" />
+                <element signature="n#!!block;n#notifyObservers#0;n#!!block;n#DuckCall04#0" />
+                <element signature="n#!!block;n#toString#0;n#!!block;n#DuckCall04#0" />
+                <element signature="n#!!block;n#RubberDuck04#0" />
+                <element signature="n#!!block;n#quack#0;n#!!block;n#RubberDuck04#0" />
+                <element signature="n#!!block;n#registerObserver#0;n#!!block;n#RubberDuck04#0" />
+                <element signature="n#!!block;n#notifyObservers#0;n#!!block;n#RubberDuck04#0" />
+                <element signature="n#!!block;n#toString#0;n#!!block;n#RubberDuck04#0" />
+                <element signature="n#!!block;n#AbstractDuckFactory04#0" />
+                <element signature="n#!!block;n#DuckFactory04#0" />
+                <element signature="n#!!block;n#createMallardDuck#0;n#!!block;n#DuckFactory04#0" />
+                <element signature="n#!!block;n#createRedheadDuck#0;n#!!block;n#DuckFactory04#0" />
+                <element signature="n#!!block;n#createDuckCall#0;n#!!block;n#DuckFactory04#0" />
+                <element signature="n#!!block;n#createRubberDuck#0;n#!!block;n#DuckFactory04#0" />
+                <element signature="n#!!block;n#createRedheadDuck#0;n#!!block;n#CountingDuckFactory04#0" />
+                <element signature="n#!!block;n#createDuckCall#0;n#!!block;n#CountingDuckFactory04#0" />
+                <element signature="n#!!block;n#createRubberDuck#0;n#!!block;n#CountingDuckFactory04#0" />
+                <element signature="n#!!block;n#Flock04#0" />
+                <element signature="n#!!block;n#add#0;n#!!block;n#Flock04#0" />
+                <element signature="e#4744#4790#1" />
+                <element signature="n#!!block;n#quack#0;n#!!block;n#Flock04#0" />
+                <element signature="e#4860#4899#1" />
+                <element signature="n#!!block;n#registerObserver#0;n#!!block;n#Flock04#0" />
+                <element signature="e#4998#5056#1" />
+                <element signature="n#!!block;n#notifyObservers#0;n#!!block;n#Flock04#0" />
+                <element signature="n#!!block;n#main#0" />
+                <element signature="n#!!block;n#simulate#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter11/MyRemoteImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/Problem02.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-402">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/Problem03.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/Problem01.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin File" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>`</find>
-      <find>lterator</find>
-      <find>DinerMenu</find>
-      <find>Problem03</find>
-      <find>Problem04</find>
-      <find>Problem05</find>
-      <find>Problem06</find>
-      <find>add</find>
-      <find>Waitress</find>
-      <find>remove</find>
-      <find>hash</find>
-      <find>createIterator</find>
-      <find>Iterator</find>
-      <find>getIterator</find>
-      <find>array</find>
-      <find>vlu</find>
-      <find>values</find>
-      <find>iterator</find>
-      <find>menuItems</find>
-      <find>추가5</find>
-      <find>동전을 넣어 주세요.</find>
-      <find>model</find>
-      <find>dispense</find>
-      <find>refill</find>
-      <find>machune</find>
-      <find>RemoteHello</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>Iterator`</replace>
-      <replace>Problem05</replace>
-      <replace>Problem06</replace>
-      <replace>Problem07</replace>
-      <replace>Problem04</replace>
-      <replace>Problem07`</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/chapter08/Problem01.kt" />
-        <option value="$PROJECT_DIR$/src/chapter08/Problem02.kt" />
-        <option value="$PROJECT_DIR$/src/chapter08/Problem03.kt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/chapter09/Problem09.kt" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/src/chapter08/Problem04.kt" />
-        <option value="$PROJECT_DIR$/src/readme/readme08.md" />
-        <option value="$PROJECT_DIR$/src/chapter09/Problem01.kt" />
-        <option value="$PROJECT_DIR$/src/chapter09/Problem05.kt" />
-        <option value="$PROJECT_DIR$/src/chapter09/Problem06.kt" />
-        <option value="$PROJECT_DIR$/src/chapter09/Problem02.kt" />
-        <option value="$PROJECT_DIR$/src/chapter09/Problem03.kt" />
-        <option value="$PROJECT_DIR$/src/chapter09/Problem04.kt" />
-        <option value="$PROJECT_DIR$/src/readme/readme09.md" />
-        <option value="$PROJECT_DIR$/src/chapter09/Problem07.kt" />
-        <option value="$PROJECT_DIR$/src/readme/readme10.md" />
-        <option value="$PROJECT_DIR$/src/chapter10/Problem01.kt" />
-        <option value="$PROJECT_DIR$/src/chapter10/temp.java" />
-        <option value="$PROJECT_DIR$/src/chapter10/Problem03.kt" />
-        <option value="$PROJECT_DIR$/src/chapter10/Temp.java" />
-        <option value="$PROJECT_DIR$/src/chapter11/Problem011.kt" />
-        <option value="$PROJECT_DIR$/src/chapter11/Problem02.kt" />
-        <option value="$PROJECT_DIR$/src/chapter11/Problem01.kt" />
-        <option value="$PROJECT_DIR$/src/chapter10/Problem02.kt" />
-        <option value="$PROJECT_DIR$/src/readme/readme11.md" />
-        <option value="$PROJECT_DIR$/src/chapter11/Sample1.java" />
-        <option value="$PROJECT_DIR$/src/chapter11/Server.java" />
-        <option value="$PROJECT_DIR$/src/chapter11/User.java" />
-        <option value="$PROJECT_DIR$/src/chapter11/Client.java" />
-        <option value="$PROJECT_DIR$/src/chapter11/MyRemote.java" />
-        <option value="$PROJECT_DIR$/src/chapter11/MyRemoteImpl.java" />
-        <option value="$PROJECT_DIR$/src/chapter11/MyRemoteClient.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -152,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,37 +128,18 @@
               <item name="HeadFirstDesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="HeadFirstDesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HeadFirstDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HeadFirstDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter11" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chapter11" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="chapter11" />
-      <recent name="chapter10" />
-      <recent name="chapter08" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/chapter11" />
-      <recent name="$PROJECT_DIR$/src/chapter10" />
-      <recent name="$PROJECT_DIR$/src/readme" />
-      <recent name="$PROJECT_DIR$/src/chapter09" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,108 +153,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyRemoteClient">
-    <configuration name="MyRemoteClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter11.MyRemoteClient" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyRemoteImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter11.MyRemoteImpl" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chapter09.Problem07Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter09.Problem07Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chapter10.Problem03Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter10.Problem03Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="chapter11.Problem01Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter11.Problem01Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MyRemoteClient" />
-        <item itemvalue="Application.MyRemoteImpl" />
-        <item itemvalue="Kotlin.chapter11.Problem01Kt" />
-        <item itemvalue="Kotlin.chapter10.Problem03Kt" />
-        <item itemvalue="Kotlin.chapter09.Problem07Kt" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="70a0b1cb-8007-4bee-a933-78b6c26e2edb" name="Default Changelist" comment="" />
-      <created>1558571718913</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1558571718913</updated>
-    </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20171674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -323,13 +171,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Resources Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30240965" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30120483" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.329927" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -342,373 +190,5 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/Project.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter07/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter06/Problem02.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="153" column="21" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter06/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/readme/readme07.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter08/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter08/Problem02.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter08/Problem03.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter08/Problem04.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="88" selection-start-line="88" selection-end-line="93" selection-end-column="1" />
-          <folding>
-            <element signature="e#19#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/jvm/annotations/JvmPlatformAnnotations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem02.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Iterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem03.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Enumeration.java" />
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem06.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/io/UnsupportedEncodingException.java" />
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Iterator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem04.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-          <folding>
-            <element signature="e#19#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Hashtable.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem05.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/readme/readme08.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem07.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1347">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/readme/readme09.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter01/Problem03.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter10/Temp2.java" />
-    <entry file="file://$PROJECT_DIR$/src/chapter10/Temp.java" />
-    <entry file="file://$PROJECT_DIR$/src/chapter10/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/Problem011.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/Problem01.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="167" column="20" lean-forward="true" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!block;n#Problem01#0" />
-            <element signature="n#!!block;n#State#0;n#!!block;n#Problem02#0" />
-            <element signature="n#GumballMachine#0;n#GumballMachine#0;n#!!block;n#Problem01#0" />
-            <element signature="n#!!block;n#GumballMachine#0;n#!!block;n#Problem02#0" />
-            <element signature="e#880#1162#0" />
-            <element signature="n#!!block;n#releaseBall#0;n#!!block;n#GumballMachine#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#NoQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#insertQuarter#0;n#!!block;n#NoQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#ejectQuarter#0;n#!!block;n#NoQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#turnCrank#0;n#!!block;n#NoQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#dispense#0;n#!!block;n#NoQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#toString#0;n#!!block;n#NoQuarterState#0;n#!!block;n#Problem01#0" />
-            <element signature="n#!!block;n#HasQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#insertQuarter#0;n#!!block;n#HasQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#ejectQuarter#0;n#!!block;n#HasQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#turnCrank#0;n#!!block;n#HasQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#dispense#0;n#!!block;n#HasQuarterState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#toString#0;n#!!block;n#HasQuarterState#0;n#!!block;n#Problem01#0" />
-            <element signature="n#!!block;n#SoldState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#insertQuarter#0;n#!!block;n#SoldState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#ejectQuarter#0;n#!!block;n#SoldState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#turnCrank#0;n#!!block;n#SoldState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#dispense#0;n#!!block;n#SoldState#0;n#!!block;n#Problem02#0" />
-            <element signature="e#2801#2885#1" />
-            <element signature="e#2891#3023#1" />
-            <element signature="n#!!block;n#toString#0;n#!!block;n#SoldState#0;n#!!block;n#Problem01#0" />
-            <element signature="n#!!block;n#SoldOutState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#insertQuarter#0;n#!!block;n#SoldOutState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#ejectQuarter#0;n#!!block;n#SoldOutState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#turnCrank#0;n#!!block;n#SoldOutState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#dispense#0;n#!!block;n#SoldOutState#0;n#!!block;n#Problem02#0" />
-            <element signature="n#!!block;n#toString#0;n#!!block;n#SoldOutState#0;n#!!block;n#Problem01#0" />
-            <element signature="n#GumballMonitor#0;n#GumballMonitor#0;n#!!block;n#Problem01#0" />
-            <element signature="n#!!block;n#GumballMonitor#0;n#!!block;n#Problem01#0" />
-            <element signature="n#!!block;n#report#0;n#!!block;n#GumballMonitor#0;n#!!block;n#Problem01#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter10/Problem02.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/readme/readme10.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/readme/readme11.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/SampleI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter10/Problem03.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/MyRemote.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.rmi/sun/rmi/server/UnicastServerRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="390" selection-start-line="390" selection-end-line="390" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/MyRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/MyRemoteImpl_Stub.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/MyRemoteImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter11/MyRemoteClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

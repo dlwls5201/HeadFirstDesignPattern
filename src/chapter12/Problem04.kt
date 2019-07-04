@@ -4,7 +4,7 @@ package chapter12
  * 5. 꽥꽥거리는 오리들을 하나씩 실시간으로 추적할 수 있는 기능믄 적용할 수 있을까요?
  * 옵저버 패턴
  */
-//관찰의 대상
+//관찰의 대상 (주제) subject
 interface QuackObservable {
     fun registerObserver(observer: Observer) // 관찰자 등록
     fun notifyObservers() // 관찰자에게 연락을 돌리기 위한 메소드
@@ -68,7 +68,7 @@ class Observable(
     }
 }
 
-//관찰자
+//관찰자 observer
 interface Observer {
     fun update(duck: QuackObservable)
 }
@@ -241,8 +241,6 @@ class Flock04 : Quackable04 {
         //Quackable 객체에서 알아서 옵저버한테 연락을 돌리기 때문에 Flock 자체에서는 아무 일도 하지 않아도 됩니다.
     }
 }
-
-
 
 fun main() {
 
